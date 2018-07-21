@@ -23,3 +23,7 @@ npm install
 ```bash
 npm run test:e2e
 ```
+
+### Report
+
+Report is available on /report folder
