@@ -17,7 +17,7 @@ module.exports = {
   },
   commands: [{
     goToHomepage() {
-      this.navigate('file:///' + require('path').resolve(__dirname + '/../../app/employees.html'));
+      this.navigate('file:///' + require('path').resolve(__dirname + '/../../employees/employees.html'));
     },
     select(name) {
       var person = './/*[span/text()="' + name + '"]/span[contains(@class,"checkbox")]';
