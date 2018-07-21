@@ -1,0 +1,16 @@
+{
+  "name": "nightwatchjs-poc-local-html-page",
+  "version": "1.0.0",
+  "description": "NightwatchJS Gerardo",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "nightwatch -c e2e/nightwatch.conf.js"
+  },
+  "author": "Gerardo Prieto",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.40.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server-standalone-jar": "^3.13.0"
+  }
+}
