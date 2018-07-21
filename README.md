@@ -27,3 +27,7 @@ npm run test:e2e
 ### Report
 
 Report is available on /report folder
+
+### Notes
+
+Please look at NOTES.md for Testing Framework & App under test notes
